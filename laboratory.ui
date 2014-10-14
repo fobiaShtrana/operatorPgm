@@ -73,6 +73,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="buttonRedButton">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>Press RED button</string>
          </property>
@@ -80,6 +83,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="buttonOpenSmallDoor">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>Unlock cage door</string>
          </property>
@@ -166,6 +172,9 @@
        </item>
        <item>
         <widget class="QGroupBox" name="groupBox_4">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
            <horstretch>0</horstretch>

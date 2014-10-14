@@ -10,7 +10,8 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = QuestLabaratory
 TEMPLATE = app
-
+QTPLUGIN += qsqloci qgif
+CONFIG += static
 
 SOURCES += main.cpp\
         laboratory.cpp
